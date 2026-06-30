@@ -5,7 +5,7 @@ import chromadb
 import requests
 
 # Test 1 - PDF reading
-doc = fitz.open("D:/OneDrive - Sutra Management/Desktop/bfsi_rag/rbi/kyc.pdf")
+doc = fitz.open("D:/OneDrive/Desktop/bfsi_rag/rbi/kyc.pdf")
 print(f"PDF OK - {len(doc)} pages loaded")
 
 # Test 2 - Embeddings
