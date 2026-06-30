@@ -5,8 +5,8 @@ import os # for file/exception handling
 import re # for splitting text into paragraphs (not essential but helps create more natural chunks)
 
 # ── Config ────────────────────────────────────────────────
-DOCS_FOLDER = "D:/OneDrive - Sutra Management/Desktop/bfsi_rag/rbi" #location of source PDF (directory)
-CHROMA_PATH = "D:/OneDrive - Sutra Management/Desktop/bfsi_rag/chroma_store" #location of chroma db physical files (directory)
+DOCS_FOLDER = "D:/OneDrive/Desktop/bfsi_rag/rbi" #location of source PDF (directory)
+CHROMA_PATH = "D:/OneDrive/Desktop/bfsi_rag/chroma_store" #location of chroma db physical files (directory)
 COLLECTION_NAME = "bfsi_docs" #name of colection in chroma db to store vectors (string)
 CHUNK_SIZE = 400        # characters per chunk (approx 1-2 paragraphs)
 CHUNK_OVERLAP = 80      # characters of overlap between chunks
